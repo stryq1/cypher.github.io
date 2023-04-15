@@ -97,6 +97,38 @@ nav img{
 nav .fa{
     display: none;
 }
+.row{
+    position: absolute;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    left: 20%;
+    right: 20%;
+}
+.features-col{
+    margin-top: 160px;
+    position: relative;
+    flex-basis: 33%;
+    background-color: #1e1e29;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+.features-col h3{
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.features-col p{
+    color: #fff;
+}
+.features-col:hover{
+    border-color: #fff;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
 
 @media (max-width: 700px) {
     .text-box h1{
@@ -124,5 +156,8 @@ nav .fa{
     }
     .nav-links ul{
         padding: 30px;
+    }
+    .row{
+        flex-direction: column;
     }
 }
