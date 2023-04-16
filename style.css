@@ -74,7 +74,7 @@ nav img{
     text-align: center;
 }
 .footer-box p{
-    margin: 10px 0 10px;
+    margin: 20px 0 0px;
     font-size: 11px;
     color: #999;
 }
@@ -102,14 +102,13 @@ nav .fa{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
-    left: 20%;
-    right: 20%;
+    left: 25%;
+    right: 25%;
 }
 .features-col{
-    margin-top: 160px;
     position: relative;
     flex-basis: 33%;
-    background-color: #1e1e29;
+    background-color: #151518;
     border-radius: 10px;
     margin-bottom: 10%;
     padding: 20px 12px;
@@ -117,13 +116,15 @@ nav .fa{
     transition: 0.2s;
 }
 .features-col h3{
-    text-align: center;
+    text-align: left;
     color: #fff;
     font-weight: 600;
     margin: 10px 0;
 }
 .features-col p{
     color: #fff;
+    text-align: left;
+    font-size: 12px;
 }
 .features-col:hover{
     border-color: #fff;
