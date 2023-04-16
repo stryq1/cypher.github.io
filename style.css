@@ -108,7 +108,17 @@ nav .fa{
 .features-col{
     position: relative;
     flex-basis: 33%;
-    background-color: #151518;
+    background-color: #151518b7;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+.features-col1{
+    position: relative;
+    flex-basis: 33%;
+    background-color: rgba(0, 0, 0, 0.3 );
     border-radius: 10px;
     margin-bottom: 10%;
     padding: 20px 12px;
@@ -121,12 +131,27 @@ nav .fa{
     font-weight: 600;
     margin: 10px 0;
 }
+.features-col1 h3{
+    text-align: left;
+    color: #fff;
+    font-weight: 600;
+    margin: 10px 0;
+}
 .features-col p{
     color: #fff;
     text-align: left;
     font-size: 12px;
 }
+.features-col1 p{
+    color: #fff;
+    text-align: left;
+    font-size: 14px;
+}
 .features-col:hover{
+    border-color: #fff;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.features-col1:hover{
     border-color: #fff;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }

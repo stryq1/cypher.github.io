@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>About Cypher</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <body>
+       <section class="header">
+        <nav>
+            <a href="about.html"><img src="Res/logo.png" onclick="hideMenu()"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Cypher</h1>
+            <p>Cypher is a multi-API roblox script executor.</p>
+
+            <div class="row">
+                <div class="features-col1">
+                    <h3>Multi API</h3>
+                    <p>Cypher is using at the moment
+                    3 exploit APIs: WeAreDevs, Krnl
+                    and EasyExploits.
+                </p>
+                </div>
+                <div class="features-col1">
+                    <h3>Professional</h3>
+                    <p>Cypher's UI is simple and professional
+                    to offer the best scripting experience.
+                </p>
+                </div>
+                <div class="features-col1">
+                    <h3>Plans</h3>
+                    <p>Keep in mind that Cypher is still in development
+                    and far from being done.<br>
+                    <br>
+                    Eventually Cypher is going to have it's own exploit API
+                    but that is yet to come.
+                    </p>
+                </div>
+        </div>
+
+        <!-- Javascript for toggle menu -->
+       <script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+        </script>
+    </body>
+</html>
