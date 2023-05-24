@@ -16,9 +16,11 @@ html,body{
 }
 nav{
     display: flex;
-    padding: 0% 2%;
+    padding: 0% 1%;
+    height: 70px;
     justify-content: space-between;
     align-items: center;
+    background-color: #111111a4;
 }
 nav img{
     width: 250px;
@@ -42,19 +44,22 @@ nav img{
     content: "";
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
     display: block;
     margin: auto;
     transition: 0.2s;
+    filter: blur(1px);
 }
 .nav-links ul li:hover::after{
     width: 100%;
+    animation: glow 8s linear infinite;
 }
 .text-box{
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -63,7 +68,7 @@ nav img{
     font-size: 62px;
 }
 .text-box p{
-    margin: 0px 0 10px;
+    margin: 0px 0 30px;
     font-size: 16px;
     color: #fff;
 }
@@ -136,7 +141,7 @@ nav .fa{
 }
 .row{
     position: absolute;
-    margin-top: 5%;
+    margin-top: 2%;
     display: flex;
     justify-content: space-between;
     left: 25%;
